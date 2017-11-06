@@ -1,0 +1,30 @@
+@media screen and (max-width: 625px) {
+    .widget {
+        width: 80%;
+        height: 60%;
+    }
+}
+
+@media handheld and (max-width: 281px) {
+    .more-w p {
+        font-size: 10px;
+    }
+}
+
+@media handheld and (max-width: 257px) {
+    .more-w p {
+        margin: 4px;
+        font-size: 10px;
+    }
+}
+
+@media handheld and (max-width: 247px) {
+    .widget {
+        width: auto;
+        height: auto;
+    }
+
+    .more-w p {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,127 @@
+body {
+    /*background: url(https://images.pexels.com/photos/531360/pexels-photo-531360.jpeg);*/
+    /*background-size: cover;*/
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.widget {
+    width: 615px;
+    height: 410px;
+    margin: 14% auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+img {
+    padding: 10% 10% 0 10%;
+}
+
+.w-info .img {
+    width: 38px;
+    height: 38px;
+}
+
+.another {
+    padding: 10%;
+}
+
+.cube-1 {
+    background-color: #06b3db;
+    width: 205px;
+    height: 205px;
+    text-align: center;
+}
+
+.cube-2 {
+    background-color: #4ed486;
+    width: 205px;
+    height: 205px;
+    text-align: center;
+}
+
+.cube-3 {
+    background-color: #6139f6;
+    width: 205px;
+    height: 205px;
+    text-align: center;
+}
+
+.cube-4 {
+    background-color: #e3b63d;
+    width: 205px;
+    height: 205px;
+    text-align: center;
+}
+
+.cube-5 {
+    background-color: #dc3d66;
+    width: 205px;
+    height: 205px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inputCity {
+    margin: 20px 18px;
+    margin-bottom: 0;
+}
+
+.forecastName {
+    margin: 5px;
+}
+
+.more-w {
+    background-color: #ad3052;
+    overflow: hidden;
+}
+
+.more-w p {
+    margin: 5px;
+    font-size: 12px;
+}
+
+.more-w img {
+    padding: 0;
+}
+
+.w-info {
+    float: left;
+    margin: 6px;
+}
+
+.cube-6 {
+    background-color: #bd54cd;
+    width: 205px;
+    height: 205px;
+    text-align: center;
+}
+
+.description,
+.description2,
+.description3,
+.description4,
+.description5 {
+    font-weight: 100;
+    text-transform: lowercase;
+}
+
+#button {
+    margin: 2px 62px;
+    width: 80px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ad3052;
+    font-weight: bold;
+}
