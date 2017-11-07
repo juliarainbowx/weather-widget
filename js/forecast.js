@@ -36,7 +36,7 @@ function updateFields(data, index) {
     let temp = block.querySelector(".temp");
     let parsedDate = new Date(data.dt_txt);
 
-    date.innerHTML = parsedDate.getDay() + '/' + parsedDate.getMonth();
+    date.innerHTML = parsedDate.getDay() + '/' + ('0' +(parsedDate.getMonth()+1)).slice(-2);
     img.src = 'img/codes/' + data.weather[0].id + '.png';
     temp.innerHTML = data.main.temp.toFixed(0) + "°C";
 }
